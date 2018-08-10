@@ -1,0 +1,52 @@
+<html>
+<head>
+<meta charset="utf-8"/>
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/profit.css.php">
+<link rel="shortcut icon" href="/profit.ico">
+<title>ProFit Wiki</title>
+</head>
+<body>
+<header class="navbar navbar-static-top" style="border-bottom-width:medium;border-color:#4A0086;">
+  <div class="navbar-inner">
+      <div class="container">
+          <a class="brand" href="faq_intern.php"><img src="img/profit-logo.png" style="height:50px"></a>
+          <div class="navbar-collapse pull-right collapse in" aria-expanded="true">
+              
+              <ul class="nav navbar-nav navbar-right">
+                <li><a href="faq_intern.php">Suche</a></li>
+                 
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                    Verwaltung
+                    <b class="caret"></b>
+                  </a>
+                </li>
+                <li><a href="login.htm">Login</a></li>
+              </ul>
+          </div>    
+      </div>
+  </div>
+</header>
+
+
+<div class="container" style="text-align:center;">
+<div class="col-lg-4"></div>
+<div class="col-lg-4">
+    <form action="login.php" method="post">
+    <h2><u>Login:</u></h2></br>
+    <div class="form-inline">
+        <label for="name">Benutzername:</label>
+        <input type="Text" name="name" class="form-control"/>
+    </div>
+    <div class="form-inline">
+        <label for="ID">Passwort:</label>
+        <input type="password" name="pw" class="form-control"/>
+    </div>
+    <input type="Submit" />
+    </form>
+</div>
+<div class="col-lg-4"></div>
+</div>
+</body>
+</html>

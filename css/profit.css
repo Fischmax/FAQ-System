@@ -1,0 +1,24 @@
+body{
+	font-size:1.4em;
+	font-family:Arial;
+}
+
+button.btn.btn-profit{
+	color:#FFFFFF;background-color:#4A0086;border-color:#ccc;
+}
+
+button.btn.btn-profit.focus,.btn-profit:focus{
+	color:#333;background-color:#e6e6e6;border-color:#8c8c8c;
+}
+
+button.btn.btn-profit:hover{
+	color:#333;background-color:#e6e6e6;border-color:#adadad;
+}
+
+button.btn-profit.active,.btn-profit:active,.btn-profit.active.focus,.btn-profit.active:focus,.btn-profit.active:hover,.btn-profit:active.focus,.btn-profit:active:focus,.btn-profit:active:hover{
+	color:;background-color:#e6e6e6;border-color:#adadad;
+}
+
+select.selectpicker{
+	margin:4px;
+}
