@@ -6,7 +6,7 @@ include("dbconnect.php");
 <meta charset="utf-8"/>
 <link rel="stylesheet" href="css/bootstrap.min.css" TYPE="text/css"/>
 <link rel="stylesheet" href="css/profit.css.php" TYPE="text/css"/>
-<link rel="shortcut icon" href="profit.ico">
+<link rel="shortcut icon" href="sym.ico">
 <title>ProFit Wiki</title>
 </head>
 <body id="bootstrap-overrides">
@@ -53,7 +53,7 @@ $themaArray = getThemaArray($db);
         mysqli_real_escape_string($db, $thema);
         //Leerzeichen am Anfang und Ende entfernen
         $suchtags = trim($suchtags);
-        //String in Wörter zerlegen
+        //String in Wï¿½rter zerlegen
         $suchtags = explode(" ",$suchtags);
         
         if($suchtags!=null){ 
@@ -66,7 +66,7 @@ $themaArray = getThemaArray($db);
        // utf8_encode($suchtags); 
         }
         
-        //Überprüfen, ob es keinen Suchbegriff gibt. Suchstring entsprechend für die Query anlegen.
+        //ï¿½berprï¿½fen, ob es keinen Suchbegriff gibt. Suchstring entsprechend fï¿½r die Query anlegen.
         if($suchtags == "+" || $suchtags == "+*" || $suchtags == null){
             $suchstring = "";	
         }else{
@@ -76,7 +76,7 @@ $themaArray = getThemaArray($db);
             
         }
         
-        //Überprüfen, ob es kein Thema gibt.
+        //ï¿½berprï¿½fen, ob es kein Thema gibt.
         if($thema === "-1"){
           $themastring = "";
         }else{

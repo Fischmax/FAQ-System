@@ -3,7 +3,7 @@
 <meta charset="utf-8"/>
 <link rel="stylesheet" href="css/bootstrap.min.css">
 <link rel="stylesheet" href="css/profit.css.php">
-<link rel="shortcut icon" href="profit.ico">
+<link rel="shortcut icon" href="sym.ico">
 <title>ProFit Wiki</title>
 </head>
 <body>
