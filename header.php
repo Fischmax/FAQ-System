@@ -1,7 +1,7 @@
 <header class="navbar navbar-static-top" style="border-bottom-width:medium;border-color:#4A0086;">
   <div class="navbar-inner">
       <div class="container">
-          <a class="brand" href="faq_intern.php"><img src="img/profit-logo.png" style="height:50px"></a>
+          <a class="brand" href="faq_intern.php"><img src="img/logo.png" style="height:50px"></a>
           <div class="navbar-collapse pull-right collapse in" aria-expanded="true">
               
               <ul class="nav navbar-nav navbar-right">
@@ -22,7 +22,7 @@
                         echo "<li><a href=\"adminadd.php\">Frage/Antwort hinzufügen</a></li>";
                       }
                       if($_SESSION['status']>=2){
-                        
+                        //TODO: Necessary?
                       }
                       if($_SESSION['status']==3){
                         echo "<li><a href=\"freigabe.php\">Freigabe/Löschung</a></li>";
