@@ -1,43 +1,43 @@
 1.11a vom 22.05.2017
 
 22.05.2017:
-- Footer mit Anzeige der eingeloggten Person und der verbleibenden Dauer der Session eingefügt.
-- Zusätzliche Sicherheitsabfragen bei der Benutzererstellung eingeführt.
+- Footer mit Anzeige der eingeloggten Person und der verbleibenden Dauer der Session eingefÃ¼gt.
+- ZusÃ¤tzliche Sicherheitsabfragen bei der Benutzererstellung eingefÃ¼hrt.
 - Bei der Erstellung eines Benutzers wird jetzt nicht mehr die Seite verlassen.
 - Version wird beim Footer aus der Changelog.txt gelesen.
-- Programme können jetzt hinzugefügt werden, ohne die Seite zu verlassen. 
-- Sicherheitsabfragen wurden für Programme eingefügt
-- Programme können jetzt umbenannt werden
-- Themen können jetzt umbenannt werden
+- Programme kÃ¶nnen jetzt hinzugefÃ¼gt werden, ohne die Seite zu verlassen.
+- Sicherheitsabfragen wurden fÃ¼r Programme eingefÃ¼gt
+- Programme kÃ¶nnen jetzt umbenannt werden
+- Themen kÃ¶nnen jetzt umbenannt werden
 
 1.10a - Setup vom 22.05.2017
 
 22.05.2017:
-- Themen können jetzt bei Suche und Freigabe/Löschung geändert werden. In der Historie wird das vermerkt.
-- Bugfix: Wenn keine Historie verfügbar ist, werden bei der neuen die Umlaute jetzt auch richtig angezeigt.
-- Bugfix: Wenn zwei mal auf den Button Freigabe erteilen(oder löschen) geklickt wird oder ein anderer Benutzer derweil die Anfrage bearbeitet hat, wird das auch als Meldung ausgegeben. Bisher kam immer "Historie geändert", obwohl das gar nicht der Fall war.
-- Soll jetzt ein leeres Thema angelegt werden, gibt es eine Fehlermeldung. Gibt es das Thema bereits, wird dieses bei der Neuanlage einer Frage ausgewählt.
-- Beim Aufruf der Startseite ist das Feld "Suchbegriff" jetzt immer sofort angewählt, sodass man einfach lostippen kann.
-- Das Logo im Header der Seite hat jetzt die Höhe vom Header selbst
+- Themen kÃ¶nnen jetzt bei Suche und Freigabe/LÃ¶schung geÃ¤ndert werden. In der Historie wird das vermerkt.
+- Bugfix: Wenn keine Historie verfÃ¼gbar ist, werden bei der neuen die Umlaute jetzt auch richtig angezeigt.
+- Bugfix: Wenn zwei mal auf den Button Freigabe erteilen(oder lÃ¶schen) geklickt wird oder ein anderer Benutzer derweil die Anfrage bearbeitet hat, wird das auch als Meldung ausgegeben. Bisher kam immer "Historie geï¿½ndert", obwohl das gar nicht der Fall war.
+- Soll jetzt ein leeres Thema angelegt werden, gibt es eine Fehlermeldung. Gibt es das Thema bereits, wird dieses bei der Neuanlage einer Frage ausgewÃ¤hlt.
+- Beim Aufruf der Startseite ist das Feld "Suchbegriff" jetzt immer sofort angewÃ¤hlt, sodass man einfach lostippen kann.
+- Das Logo im Header der Seite hat jetzt die Hï¿½he vom Header selbst
 - Es wird jetzt vermerkt, wer genau die Frage erstellt hat
 
 18.05.2017:
 - Themen werden jetzt bei der Suche mit angezeigt
 
 14.05.2017:
-- getth.php hinzugefügt
-- Themen können jetzt direkt bei der Frage erstellt werden
+- getth.php hinzugefÃ¼gt
+- Themen kÃ¶nnen jetzt direkt bei der Frage erstellt werden
       
 
 1.09a - Setup vom 04.05.2017
 
 04.05.2017:
-- Programme und Bereiche werden jetzt in der Historie richtig gefüllt.
-- Falls kein Programm, Bereich oder Thema gewählt wird, wird das nicht mehr vermerkt.
-- Datenbankzugriff bei der Freigabe/Löschung wurde vereinfacht.
+- Programme und Bereiche werden jetzt in der Historie richtig gefÃ¼llt.
+- Falls kein Programm, Bereich oder Thema gewÃ¤hlt wird, wird das nicht mehr vermerkt.
+- Datenbankzugriff bei der Freigabe/LÃ¶schung wurde vereinfacht.
 
 03.05.2017:
-- ';' in der Frage/Antwort wird jetzt bei der Erstellung der Historie gefiltert. Das hat zu einem Fehler geführt.
+- ';' in der Frage/Antwort wird jetzt bei der Erstellung der Historie gefiltert. Das hat zu einem Fehler gefÃ¼hrt.
 
 
 1.08a - Setup vom 02.05.2017
@@ -46,20 +46,20 @@
 - Die Programme/Bereiche werden jetzt als "Baum" auf der ersten Seite angezeigt
 
 28.04.2017:
-- Das Thema wird jetzt in der Suche bei jeder Frage mit aufgeführt
+- Das Thema wird jetzt in der Suche bei jeder Frage mit aufgefÃ¼hrt
 
 
 1.07a - Setup vom 24.04.2017
 
 21.04.2017:
-- Suche für alle kommt jetzt, wenn einfach kein Begriff eingegeben wird
+- Suche fÃ¼r alle kommt jetzt, wenn einfach kein Begriff eingegeben wird
 
 20.04.2017:
 - In der faq_intern.php den Rechtschreibfehler "Suchebegriffe" korrigiert
 
 23.03.2017: 
 - header.php erstellt und jeweils eingebunden
-- Bugfix: Nach einem erfolgreichen Login kann das Verwaltungsmenü jetzt auch aufgerufen werden
+- Bugfix: Nach einem erfolgreichen Login kann das VerwaltungsmenÃ¼ jetzt auch aufgerufen werden
 
 
 --------------------------------------------------------------------
